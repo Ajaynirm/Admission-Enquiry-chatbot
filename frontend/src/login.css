@@ -1,0 +1,107 @@
+body{  
+    background-color: #000000;
+    color:#e7e9ea;
+    scroll-behavior: unset;
+    font-family: 'Courier New', Courier, monospace;
+}
+.main-container{
+    display: flex;
+    background-color: #000000;
+    height: 880px;
+    justify-content: center;
+    align-items: center;
+  
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    background-color:#000000;
+    height: 773px;
+    width: 588px;
+    gap: 10px;
+    
+}
+.logo-child{
+    display: flex;
+    background-color: #000000;
+    padding: 30px 0px 5px 20px;
+    height: 57px;
+    width: 568px;
+}
+.head-child{
+   
+    background-color: rgb(2, 4, 4);
+    padding: 5px 0px 10px 20px;
+    height: 100px;
+    width: 568px;
+}
+.head2-child{
+    text-align: center;
+}
+.google-btn{
+    padding: 20px 0px 0px ;
+    align-self: center;
+}
+.apple-btn{
+    align-self: center;
+    padding: 10px 0px 0px ;
+}
+.create-btn{
+    
+    align-self: center;
+    padding: 0px 0px 0px ;
+
+}
+button{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight:bold;
+    color: black;
+    padding: 20px 80px;
+    border-radius: 30px;
+    border: #000000 solid ;
+    animation: 1s infinite;
+    transition: width 2s;
+    transition-delay: 5ms;
+}
+button:hover{
+    background-color: wheat;
+    
+    transition-delay: 5ms;
+  
+}
+.or{
+    align-self: center;
+    padding: auto;
+}
+h2{
+    text-align: end;
+}
+
+@media screen and (max-width: 700px){
+    .logo-child{
+        text-align: center;
+    }
+    .head-child{
+        text-align: center;
+    }
+    h2{
+        text-align: center;
+    }
+    .logo{
+        justify-content: center;
+        align-items: center;
+    }
+    .logo-child{
+        justify-content: center;
+        align-items: center;
+    }
+}
+.logo{
+   display: flex;
+    height: 50px;
+    width: 50px;
+    background-color: white;
+    border-radius: 30px;
+    padding: 10px 1px 10px 1px;
+}
+

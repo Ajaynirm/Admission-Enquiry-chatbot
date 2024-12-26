@@ -1,0 +1,17 @@
+{
+  "name": "chatbot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "ven":"python -m venv venv"
+
+
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "flask": "^0.2.10"
+  }
+}
